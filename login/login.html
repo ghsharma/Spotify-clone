@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+     
+    <img class="spotlogo" src="images/logo.png" >
+    <hr>
+    <br>
+    <br>
+
+
+    <div class="api">
+
+        <h1>To continue, log in to Spotify.</h1>
+        <button type="button" class="bfb" onclick="window.location.href ='login.html';"><i class="fa-brands fa-facebook fa-lg" style="color: #ffffff;  "  ></i> &emsp;CONTINUE WITH FACEBOOK</button>
+
+        <button type="button"  class="bapple" onclick="window.location.href ='login.html';"><i class="fa-brands fa-apple fa-lg" style="color: #ffffff;  "  ></i> &emsp;CONTINUE WITH APPLE</button>
+
+        <button type="button" class="bgoogle" onclick="window.location.href ='login.html';"><i class="fa-brands fa-google fa-lg" style="color: #000000;  "  ></i> &emsp;CONTINUE WITH GOOGLE</button>
+       
+        <button type="button"  class="bphone" onclick="window.location.href ='login.html';">CONTINUE WITH PHONE NUMBER</button>
+
+        <h2>OR</h2>
+    </div>
+
+    <div>
+
+        <label class="labelf" for="email"><b>Email adress or username</b></label>
+        <br>
+        <input class="inputb" type="text" placeholder="   Email adress or username" name="email" required>
+        <br>
+
+        <br>
+  
+        <label class="labelf" for="psw"><b>Password</b></label>
+        <br>
+        <input class="inputb" type="password" name="password" id="id_password" placeholder="   Password" name="psw" required="">
+        <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i>
+        
+        <br>
+
+        <br>
+
+        <a class="forgot" href="#"> forgot your pasword?</a>
+
+        <br>
+
+        <label>
+            <input class="check" type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+          <button type="button" class="blog" onclick="window.location.href ='login.html';">LOG IN</button>
+     
+          <h3>Don't have an account?</h3>
+
+        <button type="button" class="bspot" onclick="window.location.href ='login.html';"> SIGN UP FOR SPOTIFY</button>
+       
+       
+
+    </div>
+     
+  
+  
+
+<script src="login.js"></script>
+</body>
+</html>
+
+

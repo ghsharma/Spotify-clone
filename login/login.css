@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Source+Code+Pro&family=Staatliches&family=Stick+No+Bills:wght@300&display=swap');
+
+
+/* html {
+    display: table;
+    margin: auto;
+} */
+
+body{
+ font-family: 'Ubuntu', sans-serif;
+}
+
+.spotlogo{
+    height:15vh;
+    margin-left: 40vw;
+}
+
+.api h1{
+    margin-left: 40vw;
+    font-size:1em;
+}
+
+.bfb{
+    font-size: .9em;
+    margin-left:30vw;
+    height:10vh;
+    width:37vw;
+    border-radius: 40px;
+    background-color: rgb(52, 112, 224);
+    color:white;
+    font-weight:bolder;
+    border:none;
+}
+
+.bapple{
+    margin-top: 2vh;
+    font-size: .9em;
+    margin-left:30vw;
+    height:10vh;
+    width:37vw;
+    border-radius: 40px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-weight:bolder;
+    border:none;
+}
+
+.bgoogle{
+    margin-top: 2vh;
+    font-size: .9em;
+    margin-left:30vw;
+    height:10vh;
+    width:37vw;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(93, 92, 92);
+    font-weight:bolder;
+    border: .1px solid rgb(101, 101, 101);
+}
+
+.bgoogle :hover{
+    border: 4px solid rgb(0, 0, 0);
+}
+
+.bphone{
+    margin-top: 2vh;
+    font-size: .9em;
+    margin-left:30vw;
+    height:10vh;
+    width:37vw;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(93, 92, 92);
+    font-weight:bolder;
+    border: .1px solid rgb(101, 101, 101);
+}
+
+
+h2{
+
+    margin-left: 48vw;
+    font-size:1em;
+    margin-top:2.5%;
+    margin-left: 47.5vw;
+    margin-bottom: 5vh;
+}
+
+
+h2:before{
+    content:"";
+    display:block;
+    width:190px;
+    height: 2px;
+    background-color: rgb(191, 189, 189);
+    position: absolute;
+    left:31vw;
+    top:85%;
+
+}
+
+h2:after{
+    content:"";
+    display:block;
+    width:190px;
+    height: 2px;
+    background-color: rgb(201, 199, 199);
+    position: absolute;
+    right:31vw;
+    top:85%;
+}
+
+.labelf{
+
+    margin-left:30vw;
+}
+
+.inputb{
+
+    height:10vh;
+    width:36vw;
+    margin-top: 2vh;
+    margin-left: 30vw;
+    border-radius: 2px;
+    border: .1px solid rgb(101, 101, 101);
+    font-size: large;    
+}
+
+.forgot{
+    margin-left: 30vw;
+    color: black;
+}
+.check{
+    margin-top: 4vh;
+    margin-left: 30vw; 
+}
+.blog{
+    font-size: .9em;
+    text-align:center;
+    margin-left:15vw;
+    height:8vh;
+    width:10vw;
+    border-radius: 40px;
+    background-color: rgb(50, 224, 34);
+    color:rgb(0, 0, 0);
+    font-weight:bold;
+    border:none;
+}
+
+
+h3{
+
+    margin-left: 40vw;
+    font-size:1.2em;
+    margin-top:2.5%;
+    margin-bottom: 5vh;
+}
+
+
+.bspot{
+    margin-top: 2vh;
+    font-size: .9em;
+    margin-left:30vw;
+    height:10vh;
+    width:37vw;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(93, 92, 92);
+    font-weight:bolder;
+    border: .1px solid rgb(101, 101, 101);
+}
