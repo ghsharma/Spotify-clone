@@ -264,28 +264,51 @@ body {
 	border-color: #636363;
 }
 
-.preview {
+.bottom{
 	position: fixed;
+	height: 10vh;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: linear-gradient(to right, #ae2896, #509bf5);
+	background:rgb(28, 28, 28);
 	padding: 15px 40px;
-	display: flex;
-	justify-content: space-between;
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column-reverse; */
 }
-.preview h6 {
-	color: #ffffff;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 12px;
-	margin-bottom: 10px;
+
+#myProgressBar{
+	width: 35vw;
+	height: 0.7vh;
+	margin-left: 27vw;
+	/* background-color: #1db954; */
 }
-.preview p {
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: 500;
+
+.icons{
+	margin-left: 35vw;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
 }
+
+
+.icons i{
+	cursor: pointer;
+}
+
+.icons .fa-shuffle{
+	margin-right: 2vw;
+}
+
+.icons .fa-rotate-right{
+	margin-left:2vw;
+}
+.icons .fa-circle-play{
+	margin-left: 2vw;
+	margin-right: 2vw;
+
+}
+/* 
 .preview button {
 	background-color: #ffffff;
 	color: #000000;
@@ -295,4 +318,16 @@ body {
 	border: 0px;
 	border-radius: 40px;
 	cursor: pointer;
+} */
+
+.nexticons{
+
+	/* display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:row; */
+	/* margin-left: 60vw; */
+	/* margin-top: 9vh; */
+	/* right: 0; */
 }
+
