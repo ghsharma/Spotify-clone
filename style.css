@@ -264,6 +264,7 @@ body {
 	border-color: #636363;
 }
 
+
 .bottom{
 	position: fixed;
 	height: 10vh;
@@ -278,17 +279,23 @@ body {
 	flex-direction:column-reverse; */
 }
 
+.songinfo{
+	margin-left: -2vw;
+float: left;
+}
+
 #myProgressBar{
-	width: 35vw;
+	width: 33vw;
 	height: 0.7vh;
-	margin-left: 27vw;
-	/* background-color: #1db954; */
+	float: left;
+	margin-left: 23vw;
 }
 
 .icons{
-	margin-left: 35vw;
-	margin-top: 3vh;
-	margin-bottom: 2vh;
+	float: left;
+	margin-left: 30vw;
+	margin-top: 1vh;
+	margin-bottom: 4vh;
 }
 
 
@@ -320,14 +327,16 @@ body {
 	cursor: pointer;
 } */
 
-.nexticons{
 
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction:row; */
-	/* margin-left: 60vw; */
-	/* margin-top: 9vh; */
-	/* right: 0; */
+#myVolumeBar{
+
+	width: 6vw;
+	height: 0.7vh;
+
 }
 
+
+.nexticons{
+	margin-top: 20vh;
+	float: right;
+}

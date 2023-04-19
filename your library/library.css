@@ -79,6 +79,8 @@ body {
 }
 
 .topbar {
+    width: 74vw;
+    position: fixed;
 	display: flex;
 	justify-content: space-between;
 	background-color: #101010;
@@ -86,7 +88,7 @@ body {
 }
 .topbar .prev-next-buttons button {
 	color: #7a7a7a;
-	cursor: pointer;
+	cursor: not-allowed;
 	width: 44px;
 	height: 44px;
 	border-radius: 100%;
@@ -96,19 +98,26 @@ body {
 	/* margin-right: 10px; */
 }
 .topbar .navbar {
-	display: flex;
+    display: flex;
+    position: fixed;
 	align-items: center;
 }
 .topbar .navbar ul {
+    margin-left: 10vw;
 	list-style: none;
 }
 .topbar .navbar ul li {
+    height: 5vh;
+    text-align: center;
 	display: inline-block;
 	margin: 0px 8px;
 	width: 70px;
 }
+
+
 .topbar .navbar ul li a {
 	color: #b3b3b3;
+    border: white;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 14px;
@@ -143,39 +152,100 @@ body {
 	background-color: #f2f2f2;
 }
 .spotify-playlists {
-	padding: 20px 40px;
+    /* margin-top: 40vh; */
+	padding:20px 40px;
 }
 .spotify-playlists h2 {
+    margin-top: 10vh;
 	color: #ffffff;
 	font-size: 22px;
-    margin-top: 8vh;
 	margin-bottom: 20px;
 }
 .spotify-playlists .list {
+    margin-bottom: 4vh;
 	display: flex;
 	gap: 20px;
 	overflow: hidden;
 }
 .spotify-playlists .list .item {
-	min-width: 16vw;
-	width: 18vw;
-    height: 37vh;
-	/* padding: 15px; */
-	/* background-color: #181818; */
+	min-width: 140px;
+	width: 160px;
+	padding: 15px;
+	background-color: #181818;
 	border-radius: 6px;
 	cursor: pointer;
-	/* transition: all ease 0.4s; */
+	transition: all ease 0.4s;
 }
 .spotify-playlists .list .item:hover {
 	background-color: #252525;
 }
 .spotify-playlists .list .item img {
 	width: 100%;
-    height: 100%;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+/* --------------------------------------------------------- */
+
+.spotify-playlists .list .itembig {
+	min-width: 140px;
+	width: 370px;
+	padding: 15px;
+    background-image: linear-gradient(to right bottom, #3a1eec, #5f39ea, #7850e8, #8d66e6, #9e7be3);
+	border-radius: 6px;
+	cursor: pointer;
+	transition: all ease 0.4s;
+}
+
+.spotify-playlists .list .itembig img {
+	width: 100%;
 	border-radius: 6px;
 	margin-bottom: 10px;
 }
 
+
+.spotify-playlists .list .itembig .play {
+	position: relative;
+}
+.spotify-playlists .list .itembig .play .fa {
+	position: absolute;
+	right: 10px;
+	top: 35vh;
+	padding: 18px;
+	background-color: #1db954;
+	border-radius: 100%;
+	opacity: 0;
+	transition: all ease 0.4s;
+}
+.spotify-playlists .list .itembig:hover .play .fa {
+	opacity: 1;
+	transform: translateY(-20px);
+}
+.spotify-playlists .list .itembig h4 {
+	color: #ffffff;
+	font-size: 30px;
+    margin-top: 7vh;
+	margin-bottom: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.spotify-playlists .list .itembig p {
+    margin-top: 10vh;
+	color: #dcdcdc;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+.spotify-playlists .list .itembig p1 {
+    /* margin-top: 10vh; */
+	color: #dcdcdc;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+/* -------------------------------------------------------------- */
 /*  */
 /*  */
 .spotify-playlists .list .item1 {
@@ -194,7 +264,7 @@ body {
 .spotify-playlists .list .item1 img {
 	width: 100%;
 	border-radius: 100px;
-	margin-bottom: 0px;
+	margin-bottom: 10px;
 }
 
 .spotify-playlists .list .item1 .play {
@@ -267,60 +337,7 @@ body {
 	border-color: #636363;
 }
 
-.preview {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background: linear-gradient(to right, #ae2896, #509bf5);
-	padding: 15px 40px;
-	display: flex;
-	justify-content: space-between;
-}
-.preview h6 {
-	color: #ffffff;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 12px;
-	margin-bottom: 10px;
-}
-.preview p {
-	color: #ffffff;
-	font-size: 14px;
-	font-weight: 500;
-}
-.preview button {
-	background-color: #ffffff;
-	color: #000000;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 14px 30px;
-	border: 0px;
-	border-radius: 40px;
-	cursor: pointer;
-}
 
- .inputs{
-	height: 8vh;
-	width:35vw;
-	margin-left: 0vw;
-	top:0;
-	border-radius: 40px;
-	border:none;
-    padding-left: 2vw;
- }
-
- .inputs ::placeholder{
-	font-size: large;
-	font-weight: bold;
-	margin-left: 20vw;
- }
-
- .inputs text{
- margin-left: 20px;
- }
-
- 
 .bottom{
 	position: fixed;
 	height: 10vh;

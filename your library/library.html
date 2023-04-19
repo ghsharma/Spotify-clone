@@ -6,7 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>spotify-by ghs</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="library.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 	<link rel="icon" type="image/x-icon" href="login/images/spotify (1).png">
 </head>
@@ -27,21 +27,21 @@
 		<div class="navigation">
 			<ul>
 				<li>
-					<a href="#">
+					<a href="/index.html">
 						<span class="fa fa-home"></span>
 						<span>Home</span>
 					</a>
 				</li>
 
 				<li>
-					<a href="search/search.html">
+					<a href="/search/search.html">
 						<span class="fa fa-search"></span>
 						<span>Search</span>
 					</a>
 				</li>
 
 				<li>
-					<a href="your library/library.html">
+					<a href="/your library/library.html">
 						<span class="fa fas fa-book"></span>
 						<span>Your Library</span>
 					</a>
@@ -105,73 +105,70 @@
 			<div class="navbar">
 				<ul>
 					<li>
-						<a href="#">Premium</a>
+						<a href="#">Playlist</a>
 					</li>
 					<li>
-						<a href="#">Support</a>
+						<a href="#">Podcast</a>
 					</li>
 					<li>
-						<a href="#">Download</a>
+						<a href="#">Artists</a>
 					</li>
-					<li class="divider">|</li>
-					<li>
-						<a href="login/login.html">Sign Up</a>
+                    <li>
+						<a href="#">Albums</a>
 					</li>
+
 				</ul>
 				<button type="button"
-					onclick="window.location.href ='http://127.0.0.1:5500/login/login.html';">LOGIN</button>
+					onclick="window.location.href ='http://127.0.0.1:5500/login/login.html';"style="margin-left:24vw;">LOGIN</button>
 </body>
 
 </div>
 </div>
 
 <div class="spotify-playlists">
-	<h2>Made for You</h2>
+	<h2>Playlists</h2>
 
 	<div class="list">
-		<div class="item">
-			<img src="login/images/mix1.png" />
+		<div class="itembig">
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
-			<h4>Daily Mix 1</h4>
-			<p>Karma,Pritam,Arijit Singh and more</p>
+			<p><i style="color:white; font-size:medium;">New West</i> Those Eyes - Sped Up
+               <i style="color:white; font-size:medium;">Raftaar</i> Never Back Down
+                <i style="color:white; font-size:medium;">Armaan Malik</i> Pehla Pyaar
+                <i style="color:white; font-size:medium;">Narci</i> Ram Darshan
+                <i style="color:white; font-size:medium;">Vishal Dadlani</i> Jee Le Zara
+                <i style="color:white; font-size:medium;">Atif Aslam</i> Jeena Jeena
+            </p>
+			<h4>Liked Songs</h4>
+			<p1>Kaore</p1>
 		</div>
 
 		<div class="item">
-			<img src="login/images/mix 2.png" />
+			<img src="images/music.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
-			<h4>Daily Mix 2</h4>
-			<p>Pritam,Rashi Salil Harmalkar,A.R.Rahman and more</p>
+			<h4>My Playlist #8</h4>
+			<p>by You</p>
 		</div>
 
 		<div class="item">
-			<img src="login/images/mix 3.png" />
+			<img src="images/music.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
-			<h4>Daily Mix 3</h4>
-			<p>Drake,NF,Post Malone and more</p>
-		</div>
-
-		<div class="item">
-			<img src="login/images/mix 4.png" />
-			<div class="play">
-				<span class="fa fa-play"></span>
-			</div>
-			<h4>Daily Mix 4</h4>
-			<p>AP Dhillon,Miss Pooja and more</p>
+			<h4>My Playlist #9</h4>
+			<p>by You</p>
 		</div>
 	</div>
 </div>
 
 <div class="spotify-playlists">
-	<h2>Popular Albums</h2>
+
 	<div class="list">
 		<div class="item">
-			<img src="login/images/week.png" />
+			<img src="images/wo.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
@@ -180,7 +177,7 @@
 		</div>
 
 		<div class="item">
-			<img src="login/images/kabir.png" />
+			<img src="images/dead.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
@@ -189,7 +186,7 @@
 		</div>
 
 		<div class="item">
-			<img src="login/images/drake.png" />
+			<img src="images/gym.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
@@ -198,57 +195,97 @@
 		</div>
 
 		<div class="item">
-			<img src="login/images/bb.png" />
+			<img src="images/last.png" />
 			<div class="play">
 				<span class="fa fa-play"></span>
 			</div>
 			<h4>Beerbongs & Bentleys</h4>
 			<p>Post Malone, 2018</p>
 		</div>
-	</div>
-</div>
 
-<div class="spotify-playlists">
-	<h2>Your favourite artists</h2>
-	<div class="list">
-		<div class="item1">
-			<img src="login/images/artpost.png" />
-			<div class="play">
-				<span class="fa fa-play"></span>
-			</div>
-			<h4>Post Malone</h4>
-			<p>Artist</p>
-		</div>
-
-		<div class="item1">
-			<img src="login/images/artweek.png" />
-			<div class="play">
-				<span class="fa fa-play"></span>
-			</div>
-			<h4>The Weeknd</h4>
-			<p>Artist</p>
-		</div>
-
-		<div class="item1">
-			<img src="login/images/artksna.png" />
-			<div class="play">
-				<span class="fa fa-play"></span>
-			</div>
-			<h4>KR$NA</h4>
-			<p>Artist</p>
-		</div>
-
-		<div class="item1">
-			<img src="login/images/artdrake.png" />
-			<div class="play">
-				<span class="fa fa-play"></span>
-			</div>
-			<h4>Drake</h4>
-			<p>Artist</p>
-		</div>
+        
 	</div>
 
-	<hr>
+    <div class="list">
+		<div class="item">
+			<img src="images/love.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Starboy</h4>
+			<p>The Weeknd</p>
+		</div>
+
+		<div class="item">
+			<img src="images/mf.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Kabir Singh</h4>
+			<p>Various Artists</p>
+		</div>
+
+		<div class="item">
+			<img src="images/music.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Scorpion</h4>
+			<p>Drake</p>
+		</div>
+
+		<div class="item">
+			<img src="images/pre.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Beerbongs & Bentleys</h4>
+			<p>Post Malone, 2018</p>
+		</div>
+
+        
+	</div>
+
+    <div class="list">
+		<div class="item">
+			<img src="images/red.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Starboy</h4>
+			<p>The Weeknd</p>
+		</div>
+
+		<div class="item">
+			<img src="images/reels.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Kabir Singh</h4>
+			<p>Various Artists</p>
+		</div>
+
+		<div class="item">
+			<img src="images/therapy.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Scorpion</h4>
+			<p>Drake</p>
+		</div>
+
+		<div class="item">
+			<img src="images/track.png" />
+			<div class="play">
+				<span class="fa fa-play"></span>
+			</div>
+			<h4>Beerbongs & Bentleys</h4>
+			<p>Post Malone, 2018</p>
+		</div>
+
+        
+	</div>
+
 </div>
 
 <div class="preview">
@@ -256,7 +293,7 @@
 
 		<div class="songinfo">
 
-			<img src="search/images/disney.png" style="left:0; height: 10vh;">	revenge <br> xxxtentation.
+			<img src="images/music.png  " style="left:0; height: 10vh;">	revenge <br> xxxtentation.
 			<!-- <a href="#">revenge</a>
 			<a href="#">xxxtentation</a>
 		 -->
