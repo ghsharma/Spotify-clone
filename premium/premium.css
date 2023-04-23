@@ -191,10 +191,21 @@ display: inline;
 } */
 
 .tables{
+    /* margin-left: 10vw; */
+    /* padding-left: 10vw;
+     */
+    
     float:left;
-    margin-top: 7vh;
+    margin-top: 6vh;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    overflow: hidden;
 }
 .power h1{
+    /* height: 2em; */
+    margin-top: 0vh;
+    font-weight: 800;
     text-align: center;
     font-size: 2.3em;
     font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif; ;
@@ -209,17 +220,116 @@ display: inline;
     border-radius: 100%;
     height: 20vh;
 }
-/* 
+
 .box_content{
     margin-left: 2vw;
-    margin-top: 6vh;
-} */
+    margin-top: 2vh;
+}
 
 .boxes p{
+    margin-top:2vh;
     font-weight: bolder;
     font-size: 1.3em;
 }
 
 .p2{
-    font-size: .85em;
+    font-size: 1em;
+}
+
+.pick{
+  
+    padding:10vh;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+
+.pick_content{
+    text-align:center;
+}
+
+.pick_content h1{
+    font-size: 2em;
+}
+
+.pick_content h2{
+    margin-top: 1vh;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.pickimg{
+    height: 7vh;
+    margin-top: 2vh;
+}
+
+.cards{
+
+    margin: 10vh 25vw;
+    padding:1vh;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    width:37vw;
+    box-shadow: 0px 0px 4px rgb(36, 36, 36);
+}
+
+.card_content{
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+.bluebtn{
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    word-spacing: 2px;
+    color:#2475d7;
+    font-weight: bolder;
+    background-color: white;
+    /* border: none; */
+    height: 4vh;
+    margin: auto;
+    border-radius: 2px;
+    border: 1.5px solid #2475d7;
+}
+
+.card_content h1{
+    margin-top: 1vh;
+}
+
+.card_content p{
+    margin-top: 1vh;
+}
+
+ul {
+    list-style: none;
+    font-size: large;
+  }
+
+  .card_content li{
+    margin-bottom: 2vh;
+  }
+  
+  .card_content ul li:before {
+    content: '✓  ';
+  }
+
+  .viewbtn{
+    font-weight: bolder;
+    margin-top: 5vh;
+    color: white;
+    height: 9vh;
+    width: 35vw;
+    border:none;
+    background-color: #000000;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.terms_end{
+    border: none;
+    text-decoration: underline;
+    cursor:pointer;
+    margin-top:4vh;
+    margin-bottom:4vh;
+    font-size: .7em;
+    font-weight: bold;
+    color: #474646;
+
 }
