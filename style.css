@@ -273,10 +273,15 @@ body {
 	right: 0;
 	background:rgb(28, 28, 28);
 	padding: 15px 40px;
-	/* display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction:column-reverse; */
+}
+
+.preicons{
+	  margin-left: 2vw;
+	  margin-top:3vh;
+}
+
+.preicons i{
+	cursor: pointer;
 }
 
 .songinfo{
@@ -288,12 +293,12 @@ float: left;
 	width: 33vw;
 	height: 0.7vh;
 	float: left;
-	margin-left: 23vw;
+	margin-left: 13vw;
 }
 
 .icons{
 	float: left;
-	margin-left: 30vw;
+	margin-left: 20vw;
 	margin-top: 1vh;
 	margin-bottom: 4vh;
 }
@@ -315,28 +320,42 @@ float: left;
 	margin-right: 2vw;
 
 }
-/* 
-.preview button {
-	background-color: #ffffff;
-	color: #000000;
-	font-size: 16px;
-	font-weight: bold;
-	padding: 14px 30px;
-	border: 0px;
-	border-radius: 40px;
-	cursor: pointer;
-} */
-
 
 #myVolumeBar{
-
 	width: 6vw;
 	height: 0.7vh;
+}
 
+.player{
+	display: flex;
+}
+
+.songname{
+	margin-left: 2vw;
+	margin-top: 2vh;
+}
+
+.whose{
+	color: white;
+	text-decoration: none;
+	display:table-row;
+	font-size: 1.1em;
+	font-weight: bold;
+	
+}
+.whose :hover{
+	text-decoration: underline;
 }
 
 
-.nexticons{
-	margin-top: 20vh;
-	float: right;
+.whom{
+	color: white;
+	text-decoration: none;
+	display:table-row;
+	font-size: 0.71em;
 }
+
+.whom :hover{
+	text-decoration:underline ;
+}
+
