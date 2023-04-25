@@ -10,6 +10,11 @@ This is a clone of the Spotify web application that is designed to replicate som
 
 This repository is intended to serve as a starting point for anyone who wants to build a Spotify clone.
 
+## Glimpse of the project
+
+To get a overview of the frontend of this Spotify-Clone, you can go the SCREENSHOTS folder in the above files and download the images.
+
+
 ## Getting started
 
 To get started with this project, you will need to have a basic understanding of HTML, CSS, and JavaScript. You will also need a text editor, such as Visual Studio Code, and a web browser, such as Chrome or Firefox.
