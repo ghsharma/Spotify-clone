@@ -12,7 +12,8 @@ This repository is intended to serve as a starting point for anyone who wants to
 
 ## Glimpse of the project
 
-To get a overview of the frontend of the project, you can go the SCREENNSHOTS folder in the above files.
+To get a overview of the frontend of the project, you can go the SCREENSHOTS folder in the above files and download the images.
+
 
 ## Getting started
 
