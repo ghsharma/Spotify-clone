@@ -249,7 +249,7 @@ display: inline;
 }
 
 .pick{
-  
+    
     padding:10vh;
     font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
 }
@@ -473,7 +473,7 @@ ul {
   .social{
 
     margin: 20vh;
-    margin-left: 0vw;
+    margin-left: -10vw;
     
   }
 
