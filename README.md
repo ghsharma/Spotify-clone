@@ -30,6 +30,3 @@ To run the application, open the `index.html` file in your web browser. You can 
 
 If you would like to contribute to this project, feel free to fork the repository and submit a pull request. Before submitting a pull request, please make sure that your changes are consistent with the overall style and structure of the code.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
