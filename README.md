@@ -12,7 +12,8 @@ This repository is intended to serve as a starting point for anyone who wants to
 
 ## Glimpse of the project
 
-To get a overview of the frontend of this Spotify-Clone, you can go the SCREENSHOTS folder in the above files and download the images.
+The static Multipage project is hosted at - https://ghsharma.github.io/Spotify-clone/
+and, To get a overview of the frontend of this Spotify-Clone, you can go the SCREENSHOTS folder in the above files and download the images.
 
 
 ## Getting started
